@@ -7,7 +7,7 @@ now = datetime.now().strftime("%Y%m%d_%H%M%S")
 
 # Directorios a respaldar
 directories = ["/home", "/var", "/etc"]
-backup_dir = "/Respaldos"
+backup_dir = "/respaldos"
 
 # Crear directorio de respaldo con la fecha actual
 backup_path = os.path.join(backup_dir, now)
